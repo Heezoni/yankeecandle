@@ -1,0 +1,159 @@
+<style>
+
+*{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.logo-image{
+	display: block;
+	margin-top: 20px;
+}
+
+.login{
+	font-size: 15px;
+	margin-top: 24px;
+	text-decoration: none;
+	color: #333333;
+}
+
+.login a{
+	color: #333333;
+}
+
+.membership{
+	font-size: 15px;
+	margin-top: 24px;
+	text-decoration: none;
+	color: #333333;
+}
+
+.membership a{
+	color: #333333;
+}
+
+.nav{
+	font-size: 15px;
+	word-spacing: 10px;
+	margin-top: 28px;
+	margin-bottom: 16px;
+	color: #333333;
+}
+
+.nav a{
+	color: #5F5F5F;
+}
+
+.nav :hover{
+	font-weight: 700;
+	color: #B5E0EC;
+}
+
+a:link{
+	text-decoration: none;
+	color: #333333;
+}
+
+.search{
+	background-color: white;
+	height: 35px;
+	border: 2px solid #F7E789;
+	border-radius: 1.5em;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+.line{
+	background-color: #DBDBDB;
+	height: 1px;
+	width: 100%;
+}
+
+.name{
+	font-size: 28px;
+	margin-top: 40px;
+	color: #4b4b4b;
+}
+
+.name a{
+	font-size: 18px;
+}
+
+.name p{
+	font-size: 20px;
+}
+
+.price{
+	font-size: 24px;
+	margin-top: 52px;
+	color: #4b4b4b;
+}
+
+
+.product{
+	display: block;
+	margin: 0 0 20px 0;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.product:hover{
+	text-decoration: none;
+}
+
+.product .product-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info{
+	margin-top: 44px;
+	margin-bottom: 32px;
+	line-height: 28px;
+}
+
+.line2{
+	margin-top: 44px;
+	margin-bottom: 44px;
+	background-color: #DBDBDB;
+	height: 1px;
+	width: 100%;
+}
+
+.buy{
+	display: inline-block;
+	background-color: white;
+	text-align: center;
+	padding: 8px 16px 8px 16px;
+	border: 5px solid #B5E0EC;
+	font-size: 24px;
+}
+
+.cart{
+	display: inline-block;
+	margin-top: 44px;
+	background-color: white;
+	text-align: center;
+	padding: 8px 16px 8px 16px;
+	border: 5px solid #B5E0EC;
+	font-size: 24px;
+}
+
+.footer{
+	background-color: #F2F2F2;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	text-align: center;
+	margin: 120px 0 20px 0;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.footer a{
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+
+
+</style>

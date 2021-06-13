@@ -1,0 +1,176 @@
+<style>
+
+*{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.logo-image{
+	display: block;
+	margin-top: 20px;
+}
+
+.login{
+	font-size: 15px;
+	margin-top: 24px;
+	text-decoration: none;
+	color: #333333;
+}
+
+.login a{
+	color: #333333;
+}
+
+
+.membership{
+	font-size: 15px;
+	margin-top: 24px;
+	text-decoration: none;
+	color: #333333;
+}
+
+.membership a{
+	color: #333333;
+}
+
+.nav{
+	font-size: 15px;
+	word-spacing: 10px;
+	margin-top: 28px;
+	margin-bottom: 16px;
+	color: #333333;
+}
+
+.nav a{
+	color: #5F5F5F;
+}
+
+.nav :hover{
+	font-weight: 700;
+	color: #B5E0EC;
+}
+
+a:link{
+	text-decoration: none;
+	color: #333333;
+}
+
+.search{
+	background-color: white;
+	height: 35px;
+	border: 2px solid #F7E789;
+	border-radius: 1.5em;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+.line{
+	background-color: #DBDBDB;
+	height: 1px;
+	width: 100%;
+}
+
+.carousel-item{
+	height: 500px;
+	background-color: gray;
+	text-align: center;
+}
+
+.carousel-item.item1{
+	background-image: url('./images/1.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.carousel-item.item2{
+	background-image: url('./images/2.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+.carousel-item .intro{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.carousel-item .helper{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.best{
+	text-align: center;
+	font-size: 24px;
+	margin-top: 80px;
+}
+
+.best-image{
+	margin-top: 20px;
+	border-radius: 28px;
+}
+
+.best-info h4{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+	color: #333333;
+}
+
+.course{
+	display: block;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+	margin: 0 0 20px 0;
+	text-decoration: none;
+}
+
+.course:hover{
+	text-decoration: none;
+}
+
+.course .course-image{
+	display: block;
+}
+
+.course .info{
+	padding: 10px;
+}
+
+.course .info h4{
+	font-size: 18px;
+	color: #4a4a4a;
+	margin-bottom:  10px;
+}
+
+.course .info .name{
+	font-size: 13px;
+	color: #4a4a4a;
+}
+
+.magazine{
+	text-align: center;
+	font-size: 24px;
+	margin: 80px 0 28px 0;
+}
+
+.review:hover{
+	background: yellow;
+}
+
+.footer{
+	background-color: #F2F2F2;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	text-align: center;
+	margin: 120px 0 20px 0;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.footer a{
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+
+
+</style>

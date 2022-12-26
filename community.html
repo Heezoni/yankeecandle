@@ -1,275 +1,311 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style3.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style3.css" />
 
-	<title>	YANKEE CANDLE </title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-</head>
+    <title>YANKEE CANDLE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
 
-<body>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-	
-	<div class="container">
-		<div class="row">
-			<div class="col-3">
-				<a href="index.html" class="logo">
-					<div class="logo" role="alert" mr-left>
-						<img class="logo-image" src="./images/logo.png" width="80%">
-					</div>
-				</a>
-			</div>
-			<div class="col-7"></div>
-			<div class="col-1">
-				<div class="login">
-					<a class="login-link" href="#">로그인</a>
-				</div>
-	     	</div>
-	     	<div class="col-1">
-	     		<div class="membership">
-	     			<a class="membership-link" href="#">회원가입</a>
-	     		</div>
-	     	</div>
-		</div>
-	</div>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <a href="index.html" class="logo">
+              <div class="logo" role="alert" mr-left="mr-left">
+                <img class="logo-image" src="./images/logo.png" width="80%" />
+              </div>
+            </a>
+          </div>
 
+          <!-- 로그인 -->
+          <ul class="login">
+            <li>
+              <a class="login-link" href="login.html">로그인</a>
+            </li>
+            <li>
+              <a class="membership-link" href="#">회원가입</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
-	<!-- navbar -->
-	<div class="container">
-		<div class="row">
-			<div class="col-6">
-				<div class="nav">
-					<a class="nav-link1" href="index.html">HOME &nbsp;&nbsp;&nbsp;&nbsp; </a>
-					<a class="nav-link2" href="product.html">PRODUCT &nbsp;&nbsp;&nbsp;&nbsp; </a> 
-					<a class="nav-link3" href="community.html"><b>COMMUNITY</b> &nbsp;&nbsp;&nbsp;&nbsp; </a> 
-					<a class="nav-link4" href="franchise.html">FRANCHISE &nbsp;&nbsp;&nbsp;&nbsp; </a> 
-				</div>
-			</div>
-			<div class="col-2"></div>
-			<div class="col-4">
-				<div class="search"></div>
-			</div>
-		</div>
-	</div>
+    <!-- navbar -->
+    <div class="container" id="gnb">
+      <div class="gnb">
+        <ul class="nav">
+          <li class="nav-link1">
+            <a href="index.html">HOME</a>
+          </li>
+          <li class="nav-link2">
+            <a href="product.html">PRODUCT</a>
+          </li>
+          <li class="nav-link3">
+            <a href="community.html">COMMUNITY</a>
+          </li>
+          <li class="nav-link4">
+            <a href="franchise.html">
+              <b>FRANCHISE</b>
+            </a>
+          </li>
+        </ul>
 
-	<!-- navbar -->
-		<div class="line"></div>
-	
+        <div class="search">
+          <input type="text" placeholder="검색어를 입력하세요" />
+          <button type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+    </div>
 
-	<!-- Candle -->
-	<div class="container">
-		<div class="row">
-			<div class="col-5"></div>
-			<div class="col-2">
-				<div class="event">
-				  <b>이벤트</b>
-				</div>
-			<div class="col-5"></div>
-			</div>
-		</div>
+    <!-- Candle -->
+    <div class="container">
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-2">
+          <div class="event">
+            <b>이벤트</b>
+          </div>
+          <div class="col-5"></div>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <a href="#" class="banner">
+            <img
+              class="bannert-image"
+              src="./images/e1.jpg"
+              width="100%"
+              style="margin-left: auto; margin-right: auto"
+            />
+          </a>
+        </div>
 
-		<div class="row">
-			<div class="col-12 col-lg-4">
-				<a href="#" class="banner">
-					<img class="bannert-image" src="./images/e1.jpg" width="100%" style="margin-left: auto; margin-right: auto;">
-				</a>
-			</div>
+        <div class="col-12 col-lg-4">
+          <a href="#" class="banner">
+            <img
+              class="banner-image"
+              src="./images/e3.jpg"
+              width="100%"
+              style="margin-left: auto; margin-right: auto"
+            />
+          </a>
+        </div>
 
-			<div class="col-12 col-lg-4">
-				<a href="#" class="banner">
-					<img class="banner-image" src="./images/e3.jpg" width="100%" style="margin-left: auto; margin-right: auto;">
-				</a>
-			</div>
+        <div class="col-12 col-lg-4">
+          <a href="#" class="banner">
+            <img
+              class="banner-image"
+              src="./images/e2.jpg"
+              width="100%"
+              style="margin-left: auto; margin-right: auto"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
 
-			<div class="col-12 col-lg-4">
-				<a href="#" class="banner">
-					<img class="banner-image" src="./images/e2.jpg" width="100%" style="margin-left: auto; margin-right: auto;">
-				</a>
-			</div>
+    <!-- diffuser -->
+    <div class="container">
+      <div class="diffuser">
+        <h4>
+          <b>리뷰</b>
+        </h4>
+      </div>
 
-		</div>
-	</div>
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <a href="#" class="review">
+            <img class="review-image" src="./images/r1.jpg" width="100%" />
+            <div class="info">
+              <h4>★&nbsp;★&nbsp;★&nbsp;★</h4>
+              <div class="price">
+                캔들 워머 처음 사용해봤는데 분위기 있고 무드등 역할도 해줘서
+                좋아요! 무엇보다 라이터를 사용할 필요가 없어서 편리하네요~^^
+              </div>
+            </div>
+          </a>
+        </div>
 
+        <div class="col-12 col-lg-4">
+          <a href="#" class="review">
+            <img class="review-image" src="./images/r2.jpg" width="100%" />
+            <div class="info">
+              <h4>★&nbsp;★&nbsp;★&nbsp;★</h4>
+              <div class="price">
+                친구한테 생일 선물로 받아서 처음 사용하게 됐는데 코튼 향이 너무
+                좋은 거 같아요~ 다 쓰면 또 구매하고 싶어요!
+              </div>
+            </div>
+          </a>
+        </div>
 
-	<!-- diffuser -->
-	<div class="container">
-		<div class="row">
-			<div class="col-4"></div>
-			<div class="col-4">
-				<div class="diffuser">
-				  <b>리뷰</b>
-				</div>
-			<div class="col-5"></div>
-			</div>
-		</div>
+        <div class="col-12 col-lg-4">
+          <a href="#" class="review">
+            <img class="review-image" src="./images/r3.jpg" width="100%" />
+            <div class="info">
+              <h4>★&nbsp;★&nbsp;★&nbsp;★&nbsp;★</h4>
+              <div class="price">
+                타 브랜드에 비해 가격이 조금 더 나가지만 튼튼하고 밝기 조절도
+                되고 좋은 거 같아요~ 무엇보다 양키캔들은 향을 잘 뽑아서 애용하고
+                있어요^^
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
 
+    <!-- car -->
+    <div class="container">
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-2">
+          <div class="diffuser">
+            <b>Q&A</b>
+          </div>
+          <div class="col-5"></div>
+        </div>
+      </div>
 
-		<div class="row">
-			<div class="col-12 col-lg-4">
-				<a href="#" class="review">
-					<img class="review-image" src="./images/r1.jpg" width="100%">
-					<div class="info">
-						<h4>★&nbsp;★&nbsp;★&nbsp;★</h4>
-						<div class="price">
-							캔들 워머 처음 사용해봤는데 분위기 있고 무드등 역할도 해줘서 좋아요! 무엇보다 라이터를 사용할 필요가 없어서 편리하네요~^^
-						</div>
-					</div>
-				</a>
-			</div>
+      <div class="row">
+        <div class="col-1">
+          <div class="number">01</div>
+        </div>
 
-			<div class="col-12 col-lg-4">
-				<a href="#" class="review">
-					<img class="review-image" src="./images/r2.jpg" width="100%" >
-					<div class="info">
-						<h4>★&nbsp;★&nbsp;★&nbsp;★</h4>
-						<div class="price">
-							친구한테 생일 선물로 받아서 처음 사용하게 됐는데 코튼 향이 너무 좋은 거 같아요~ 다 쓰면 또 구매하고 싶어요!
-						</div>
-					</div>
-				</a>
-			</div>
+        <div class="col-11">
+          <div class="q">
+            [캔들] 그을음이 발생하지 않는 특정한 왁스가 있나요?
+          </div>
+          <div class="a">
+            그을음이 발생하지 않는 왁스는 존재하지 않습니다. 현재 미국 향초 협회
+            회원사에서 사용 중인 모든 종류의 왁스는 올바른 향초 사용법에 따라
+            향초를 사용하는 한 깨끗하게 연소되며, 독성이 있거나 인체에 유해하지
+            않습니다.
+          </div>
+        </div>
 
-			<div class="col-12 col-lg-4">
-				<a href="#" class="review">
-					<img class="review-image" src="./images/r3.jpg" width="100%">
-					<div class="info">
-						<h4>★&nbsp;★&nbsp;★&nbsp;★&nbsp;★</h4>
-						<div class="price">
-							타 브랜드에 비해 가격이 조금 더 나가지만 튼튼하고 밝기 조절도 되고 좋은 거 같아요~ 무엇보다 양키캔들은 향을 잘 뽑아서 애용하고 있어요^^
-						</div>
-					</div>
-				</a>
-			</div>
+        <div class="col-12">
+          <div class="line2"></div>
+        </div>
 
+        <div class="col-1">
+          <div class="number">02</div>
+        </div>
 
-		</div>
-	</div>
+        <div class="col-11">
+          <div class="q">[캔들] 향초는 천식이나 알레르기를 유발하나요?</div>
+          <div class="a">
+            많은 사람들이 향초를 이용하지만 천식이나 알레르기를 유발한다는
+            의학적 근거는 없습니다. 일부 특정 향에 극히 민감한 체질의 사람에게는
+            부정적 부작용을 유발할 가능성은 있어 해당 향의 사용을 피하는 것이
+            좋습니다.
+          </div>
+        </div>
 
+        <div class="col-12">
+          <div class="line2"></div>
+        </div>
 
-	<!-- car -->
-	<div class="container">
-		<div class="row">
-			<div class="col-5"></div>
-			<div class="col-2">
-				<div class="diffuser">
-				  <b>Q&A</b>
-				</div>
-			<div class="col-5"></div>
-			</div>
-		</div>
+        <div class="col-1">
+          <div class="number">03</div>
+        </div>
 
+        <div class="col-11">
+          <div class="q">[캔들] 보티브 향수는 타는 시간이 얼마나 되나요?</div>
+          <div class="a">
+            버닝 타임은 15~16시간 가량 소요되는데, 집안의 냄새를 없애주는데
+            도움을 주며 기분 전환에 효과적인 향초입니다. 보티브 비닐에 붙어있던
+            라벨을 떼서 홀더에 붙여놓으면 지금 태우는 향을 볼 수도 있으며 향초
+            스몰자 하나 만든 기분이 듭니다.
+          </div>
+        </div>
 
-		<div class="row">
-			<div class="col-1">
-				<div class="number"> 01 </div>
-			</div>
+        <div class="col-12">
+          <div class="line2"></div>
+        </div>
 
-			<div class="col-11">
-				<div class="q">
-					[캔들] 그을음이 발생하지 않는 특정한 왁스가 있나요?
-				</div>
-				<div class="a">
-					그을음이 발생하지 않는 왁스는 존재하지 않습니다. 현재 미국 향초 협회 회원사에서 사용 중인 모든 종류의 왁스는 올바른 향초 사용법에 따라 향초를 사용하는 한 깨끗하게 연소되며, 독성이 있거나 인체에 유해하지 않습니다. 
-				</div> 
-			</div>
+        <div class="col-1">
+          <div class="number">04</div>
+        </div>
 
-			<div class="col-12">
-				<div class="line2"></div>
-			</div>
+        <div class="col-11">
+          <div class="q">쉐이드 & 트레이가 필요한 이유는 무엇인가요?</div>
+          <div class="a">
+            자캔들을 이용하실 때 쉐이드 & 트레이 세트를 함께 이용하시면 자캔들
+            용기 안에 산소를 원활하게 순환시켜 주어 심지가 흔들리지 않게 하고,
+            안정적인 불꽃 유지에 도움을 주어 그을음 발생을 최소화 해줍니다.
+          </div>
+        </div>
 
-			<div class="col-1">
-				<div class="number"> 02 </div>
-			</div>
+        <div class="col-12">
+          <div class="line2"></div>
+        </div>
 
-			<div class="col-11">
-				<div class="q">
-					[캔들] 향초는 천식이나 알레르기를 유발하나요?
-				</div>
-				<div class="a">
-					많은 사람들이 향초를 이용하지만 천식이나 알레르기를 유발한다는 의학적 근거는 없습니다. 일부 특정 향에 극히 민감한 체질의 사람에게는 부정적 부작용을 유발할 가능성은 있어 해당 향의 사용을 피하는 것이 좋습니다. 
-				</div> 
-			</div>
+        <div class="col-1">
+          <div class="number">05</div>
+        </div>
 
-			<div class="col-12">
-				<div class="line2"></div>
-			</div>
+        <div class="col-11">
+          <div class="q">캔들 워머 사용법을 알려주세요.</div>
+          <div class="a">
+            캔들 워머는 할로겐 전구의 열을 이용해서 왁스를 녹이는 양키캔들 전용
+            워머입니다. 촛불을 켜지 않고도 좋은 향의 분위기 연출이 가능하고,
+            스탠드 역할도 해주는 제품입니다. *프레그런스 오일을 사용하시면 오랜
+            시간 향을 느낄 수 있습니다.
+          </div>
+        </div>
+      </div>
+    </div>
 
-			<div class="col-1">
-				<div class="number"> 03 </div>
-			</div>
+    <div class="footer">
+      <a href="./images/facebook.png">
+        <img src="./images/facebook.png" height="20"
+      /></a>
+      <a href="./images/instagram.png">
+        <img src="./images/instagram.png" height="20"
+      /></a>
+      <a href="./images/twitter.png">
+        <img src="./images/twitter.png" height="20" /></a
+      ><br /><br />
+      상호 : (주)아로마글로바대표 : 임미숙본사 : 380-871) 충청북도 충주시
+      기업도시2로 27 (영평리 571)<br />
+      서울사무소 : 135-871) 서울시 강남구 영동대로 607, 9층 (삼성동,
+      랜드마크타워)대표전화 : 1544-5885<br />
+      사업자번호 : 220-81-99275Copyright © (주)아로마글로바. All rights
+      reserved.
+    </div>
 
-			<div class="col-11">
-				<div class="q">
-					[캔들] 보티브 향수는 타는 시간이 얼마나 되나요?
-				</div>
-				<div class="a">
-					버닝 타임은 15~16시간 가량 소요되는데, 집안의 냄새를 없애주는데 도움을 주며 기분 전환에 효과적인 향초입니다. 보티브 비닐에 붙어있던 라벨을 떼서 홀더에 붙여놓으면 지금 태우는 향을 볼 수도 있으며 향초 스몰자 하나 만든 기분이 듭니다. 
-				</div> 
-			</div>
-
-			<div class="col-12">
-				<div class="line2"></div>
-			</div>
-
-			<div class="col-1">
-				<div class="number"> 04 </div>
-			</div>
-
-			<div class="col-11">
-				<div class="q">
-					쉐이드 & 트레이가 필요한 이유는 무엇인가요?
-				</div>
-				<div class="a">
-					자캔들을 이용하실 때 쉐이드 & 트레이 세트를 함께 이용하시면 자캔들 용기 안에 산소를 원활하게 순환시켜 주어 심지가 흔들리지 않게 하고, 안정적인 불꽃 유지에 도움을 주어 그을음 발생을 최소화 해줍니다. 
-				</div> 
-			</div>
-
-			<div class="col-12">
-				<div class="line2"></div>
-			</div>
-
-			<div class="col-1">
-				<div class="number"> 05 </div>
-			</div>
-
-			<div class="col-11">
-				<div class="q">
-					캔들 워머 사용법을 알려주세요.
-				</div>
-				<div class="a">
-					캔들 워머는 할로겐 전구의 열을 이용해서 왁스를 녹이는 양키캔들 전용 워머입니다. 촛불을 켜지 않고도 좋은 향의 분위기 연출이 가능하고, 스탠드 역할도 해주는 제품입니다. *프레그런스 오일을 사용하시면 오랜 시간 향을 느낄 수 있습니다. 
-				</div> 
-			</div>
-
-		</div>
-	</div>
-
-
-	<div class="footer">
-		<a href="./images/facebook.png">
-		 <img src="./images/facebook.png" height="20"></a>
-		<a href="./images/instagram.png">
-		 <img src="./images/instagram.png" height="20"></a>
-		<a href="./images/twitter.png">
-		 <img src="./images/twitter.png" height="20"></a><br><br>
-		상호 : (주)아로마글로바대표 : 임미숙본사 : 380-871) 충청북도 충주시 기업도시2로 27 (영평리 571)<br>
-		서울사무소 : 135-871) 서울시 강남구 영동대로 607, 9층 (삼성동, 랜드마크타워)대표전화 : 1544-5885<br>
-		사업자번호 : 220-81-99275Copyright © (주)아로마글로바. All rights reserved.
-	</div>
-
-
-
-
-
-		
-
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-
-</body>
-		
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

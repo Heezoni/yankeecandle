@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style5.css" />
+
+    <title>LogIn</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <header>
+      <div class="head-wrapper">
+        <div class="row">
+          <a href="index.html" class="logo">
+            <div class="logo" role="alert" mr-left="mr-left">
+              <img class="logo-image" src="./images/logo.png" width="80%" />
+            </div>
+          </a>
+
+          <!-- <div class="col-7"></div> <div class="col-1"> <div class="login"> <a
+                    class="login-link" href="#"> <b>로그인</b> </a> </div> </div> <div class="col-1">
+                    <div class="membership"> <a class="membership-link" href="#">회원가입</a> </div>
+                    </div> -->
+        </div>
+      </div>
+
+      <!-- GNB -->
+      <!-- <div class="gnb-wrap"> <div class="row"> <div class="col-6"> <ul
+            class="nav"> <li class="m01"> <a href="index.html">HOME</a> </li> <li
+            class="m02"> <a href="index.html">PRODUCT</a> </li> <li class="m03"> <a
+            href="index.html">COMMUNITY</a> </li> <li class="m04"> <a
+            href="index.html">FRANCHISE</a> </li> </ul> <div class="col-2"></div> <div
+            class="col-4"> <div class="search"></div> </div> </div> </div> -->
+
+      <!-- navbar -->
+      <!-- <div class="line"></div> </div> -->
+    </header>
+
+    <div class="wrapper">
+      <section class="container">
+        <!-- login -->
+        <div class="login-wrapper">
+          <div class="login">
+            <div class="form-floating mb-3" id="id">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingInput"
+                placeholder="id"
+                autofocus
+                required
+              />
+              <label for="floatingInput">ID</label>
+            </div>
+            <div class="form-floating" id="password">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+                required
+              />
+              <label for="floatingPassword">Password</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- 로그인 상태 유지 -->
+        <div class="state-wrapper">
+          <div class="form-check" id="login_last">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              로그인 상태 유지
+            </label>
+          </div>
+        </div>
+
+        <!-- btn -->
+        <div class="btn-wrapper">
+          <div class="d-grid gap-2 mx-auto" id="btn">
+            <button class="btn btn-primary" type="button">LOGIN</button>
+          </div>
+        </div>
+
+        <!-- 찾기 btn -->
+        <div class="gnb-wrapper">
+          <ul class="find">
+            <li>
+              <a href="#">아이디 찾기</a>
+            </li>
+            <li>
+              <a href="#">비밀번호 찾기</a>
+            </li>
+            <li>
+              <a href="#">회원가입</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </body>
+
+  <script>
+    $(function () {
+      $("#btn").click(function () {
+        location.href = "index.html";
+      });
+    });
+  </script>
+</html>
